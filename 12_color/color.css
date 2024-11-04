@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container1{
+    height: 200px;
+    background-color: red;
+}
+.container2{
+    height: 200px;
+    /*background-color: rgb(25,68,56);*/
+    background-color: rgba(25, 68, 56, 0.4);
+}
+.container3{
+    height: 200px;
+    background-color:#e9c46a;
+    
+}
+.container4{
+    height: 200px;
+    color: #7f8f7f;
+    background-color: hsl(323, 58%, 40%);
+}

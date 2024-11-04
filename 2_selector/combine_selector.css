@@ -1,0 +1,12 @@
+/*p{
+    color: red;
+}*/
+/*desecendant selector*/
+/*.cointainer3 p{
+    color:green
+
+}
+.cointainer p{
+    color: red;
+}*/
+/*!direct child selector*/

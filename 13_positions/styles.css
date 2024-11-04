@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.outer{
+    height: 100vh;
+    background: linear-gradient(to right,yellow,red);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.outer>.inner{
+    height: 45%;
+    width: 75%;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-items: right;
+    align-items: center;
+    text-align: left;
+}
+.inner>.left{
+    height: 250px;
+    width: 250px;
+    background-color: red;
+    position: absolute;
+    left: 100px;
+    border-radius: 20px;
+    
+}
+
+.inner>.right{
+    width: 300px;
+    position:absolute;
+    right: 400px;
+    gap: 25px;
+
+}
+.btn{
+    padding: 10px 20px;
+    background:linear-gradient(to left,yellow,red);
+    color:azure;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    position: absolute;
+    top: 125px;
+    right: 200px;
+}
+
+.btn:hover{
+    background: linear-gradient(to left,red,yellow);
+}

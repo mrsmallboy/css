@@ -1,0 +1,25 @@
+.container>p:first-letter{
+    color: coral;
+    font-size: 30px;
+}
+.container>p::first-line{
+    color: green;
+}
+.container2>ul>li::marker{
+    color: blue;
+}
+.container2>ul>li:nth-child(2n)::marker{
+    color: brown;
+}
+::selection{
+    color: whitesmoke;
+    background-color: black;
+}
+.container>h1::after{
+    content: "********❤️❤️";
+    color: blue;
+}
+.container>h1::before{
+    content: "❤️❤️********";
+    color: blue;
+}

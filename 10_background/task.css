@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    height: 100vh;
+    background-image: url("https://tse4.mm.bing.net/th?id=OIP.nucg2Gm3JxCPauSelRdx_gHaE6&pid=Api&P=0&h=180");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+section>h1{
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px whitesmoke;
+    
+
+}
+section>p{
+    color: white;
+    font-size: 20px;
+    text-transform: lowercase;
+    text-shadow: 2px 2px 2px whitesmoke;
+
+}
+#section1{
+    background-image: url("https://tse4.mm.bing.net/th?id=OIP.nucg2Gm3JxCPauSelRdx_gHaE6&pid=Api&P=0&h=180");
+}
+#section2{
+    background-image: url("https://tse4.mm.bing.net/th?id=OIP.UlM8SlGLWi8GJEIEKisrfQHaEK&pid=Api&P=0&h=180");
+}
+#section3{
+    background-image: url("https://tse2.mm.bing.net/th?id=OIP.WMJnkJcwF7L6Yov_M516QwHaEK&pid=Api&P=0&h=180");
+}
+#section4{
+    background-image: url("https://tse4.mm.bing.net/th?id=OIP.GkrfJHlQMNpFFzLYO8j8CAHaFj&pid=Api&P=0&h=180");
+}
+

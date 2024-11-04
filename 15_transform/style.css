@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.outer{
+    height: 100vh;
+    background: linear-gradient(to right,blue,white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.outer>.inner{
+    height: 500px;
+    width: 500px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.outer>.inner>.box{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    cursor: pointer;
+
+    transition: all 2s;
+}
+
+.outer>.inner>.box:hover{
+transform: translate(200px,200px);
+transform: rotate(270deg);
+background-color: blue;
+
+transform: skew(100deg);
+}
+

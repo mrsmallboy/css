@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&display=swap');*{
+    font-family: "Edu AU VIC WA NT Dots", cursive;
+}
+.container1 > h1{
+    color: red;
+}
+.container1 > a{
+    text-decoration: none;
+}
+.container1 > a{
+    text-align: justify;
+}
+.container1>h2{
+    /* text-decoration-line: none; */
+    /* text-decoration-line: underline; */
+    /* text-decoration-line: overline; */
+    text-decoration-line: line-through;
+    text-decoration-color: red;
+    text-decoration-style: wavy;
+}
+.container1>h3{
+    text-align: center;
+}
+.container2>p{
+    text-transform: capitalize;
+
+}
+.container2>#para2{
+    text-indent: 40px;
+    letter-spacing: 2px;
+    word-spacing: 5px;   
+}
+.container2>h2{
+    text-align: center;
+    color: red;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    text-shadow: 4px 6px 3px orange;
+    text-decoration: underline;
+}
+.container3 > #para3{
+    font-family: "Edu AU VIC WA NT Dots", cursive;
+}

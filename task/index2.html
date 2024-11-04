@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex card</title>
+<style>
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    .container{ 
+            height: 100vh;  
+            background-color: aqua;
+            display: flex;
+            gap: 10px;
+        } 
+    .card{
+        border: 2px solid black;
+        flex-basis: 20%;
+        height: 300px;
+        background-color: cadetblue;
+        padding: 20px;
+       
+    }
+    .container>.card>h2{
+        margin-bottom: 20px;
+        text-transform: capitalize;
+    }
+    .container>.card>p{
+        font-size: 20px;
+        text-align: justify;
+        
+    }
+    #card1{
+        flex-basis: 25%;
+        background-color: lightblue;
+    }
+    #card2{
+        flex-basis: 30%;
+        background-color: teal;
+    }
+    #card3{
+        flex-basis: 25%;
+        background-color: orchid;
+    }
+    #card4{
+        flex-basis: 30%;
+        background-color: indianred;
+    }
+    .card:hover{
+        cursor: pointer;
+    }
+
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="card" id="card1">
+            <h2>Card 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="card" id="card2">
+            <h2>Card 2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="card" id="card3">
+            <h2>Card 3</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="card" id="card4">
+            <h2>Card 4</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+    </div>
+</body>
+</html>

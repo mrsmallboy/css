@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.outer{
+    background-color: purple;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 10px;
+    transition: all 0.5s;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+     border-radius: 20px;
+    transition: all 3s ease;
+}
+.box:hover{
+    cursor: pointer;
+    background-color: aquamarine;
+    transform: scale(2) translate(90vh) rotate(540deg) ;
+    transform: rotate();
+}
+#box:active{
+    transition: all 10s ease-in-out ;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NETFLIX</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+       .outer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-image: url(./Netflix-background_860c8ece6b34fb4f43af02255ca8f225.jpg);
+        background-size: cover;
+        position: relative;
+       }
+       .outer>.navbar{
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        color: white;
+        background-color: black;
+        top:2px;
+       }
+        button{
+        padding: 10px 20px;
+        background-color: red;
+        color: white;
+        border: none;
+        cursor: pointer;
+        transition: red 3s ease;
+       }
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <div class="navbar">
+            <div class="left">
+                <h1>NETFLIX</h1>
+            </div>
+            <div class="right">
+                <button>english</button>
+                <button>sign in</button>
+            </div>
+        </div>
+        <div class="inner">
+            <h1>Unlimited movies,
+                TV shows and more</h1>
+                <p id="para1">starts at $49. cancal at any time</p>
+                <p id="para2">Ready to watch? Enter your email to create or restart your membership.</p>
+                <form >
+                    <input type="email" placeholder="Email address">
+                    <button type="submit">Get started</button>
+                </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.outer{
+    height: 100vh;
+    background-color: #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer>.inner{
+    height: 500px;
+    width: 500px;
+    border: 3px solid white;
+}
+.outer>.inner>.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+    transition: all 2s ease;
+
+       
+}
+
+.box:hover{
+    animation: rotate 3s infinite;
+}
+/*
+.box:hover{
+    animation-name: move;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform: rotate(270deg);
+}
+
+@keyframes move {
+    from{
+        transform: translate(0,0,0);
+    }
+    to{
+        transform: translate(300px,300px);
+    }
+}
+*/
+@keyframes rotate {
+    0%{
+        transform: translate(0,0) rotate(70deg);
+    }
+    25%{
+        transform: translate(200px,0) rotate(160deg);
+    }
+    50%{
+        transform: translate(200px,200px) rotate(240deg);
+    }
+    75%{
+        transform: translate(0,200px) rotate(330deg);
+    }
+
+}
+.outer>.inner2{
+    height: 500px;
+    width: 500px;
+    border: 3px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.inner2>.box1{
+    height: 100px;
+    width: 100px;
+    border-top: 3px solid white;
+    border-radius: 50%; 
+    animation: circle 1s linear  infinite ;
+    transition: all 3s ease;
+}
+
+@keyframes circle {
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+ }

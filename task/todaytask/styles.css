@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.outer{
+    height: 100vh;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer>.inner{
+    width: 80%;
+    background-color: white;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+.list-items{
+    display: flex;
+    list-style-type: none;
+}

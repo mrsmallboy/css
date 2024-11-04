@@ -1,0 +1,78 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #0066cc;
+    color: white;
+    padding: 60px 0;
+}
+
+.text-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.text-section p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.buttons .btn {
+    background-color: white;
+    color: #0066cc;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 1em;
+}
+
+/* Image Section */
+.image-section img {
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: white;
+}
+
+.feature-item {
+    text-align: center;
+    width: 30%;
+}
+
+.feature-item img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.feature-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.feature-item p {
+    font-size: 1em;
+    color: #666;
+}

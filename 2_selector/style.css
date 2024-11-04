@@ -1,0 +1,24 @@
+/* tag name selector 
+h1{
+    color: red;
+}
+p{
+    color: blue;
+}
+    */
+#par3{
+    color: red;
+}
+
+/* class selector*/
+.par{
+    color: burlywood;
+}
+/*universal selector*/
+*{
+    color: darkorange;
+}
+/*group selector*/
+.par,#par3,h3{
+    color: bisque;
+}

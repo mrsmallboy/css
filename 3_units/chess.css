@@ -1,0 +1,40 @@
+/*body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: gray;
+    color: chocolate;
+    
+}*/
+.body{
+    margin: auto;
+}
+
+    
+
+.conitainer{
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    margin: auto;
+  
+}
+.white{
+    height: 50px;
+    width: 50px;
+    background-color: wheat;
+
+}
+.black{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+}
+.row1{
+    display: flex;
+}
+.row2{
+    display: flex;
+}

@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.outer{
+    height: 100vh;
+    background: linear-gradient(to right,blue,white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 10s ease-in-out 10s;
+}
+.outer>.inner{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    cursor: pointer;
+
+    /*    transition: all;
+    transition-duration: 2s;
+    transition-timing-function:ease-in ;
+    transition-delay:  1s ;*/
+    transition: all 3s ease-in-out ;
+}
+.outer>.inner:hover{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: yellow;
+
+}
+.outer:hover{
+    background: linear-gradient(to right, white, blue);
+}
